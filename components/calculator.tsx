@@ -107,9 +107,6 @@ export function Calculator() {
         <div className="absolute top-2 right-4 text-black font-bold text-lg">
           HP
         </div>
-        <div className="absolute top-6 right-4 text-black font-bold text-lg">
-          12c
-        </div>
       </div>
 
       {/* Keypad */}
