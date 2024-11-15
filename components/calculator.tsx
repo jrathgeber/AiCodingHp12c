@@ -79,9 +79,17 @@ export function Calculator() {
         ...prev,
         pv: pv
       }))
-    } catch (error) {
-      setDisplay('Error')
-    }
+  //  }  
+  
+  } catch (error) {
+
+    const text: string = (error as string);
+
+    setDisplay(text)
+
+  }
+  
+  
   }
 
   const handleFinancial = (register: keyof typeof financialRegisters) => {
